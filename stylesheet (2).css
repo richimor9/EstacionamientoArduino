@@ -1,0 +1,169 @@
+body
+{
+background-color:#81BEF7;
+font-family:"Helvetica",Arial;
+
+}
+
+#contenido
+{
+width:960px;
+margin:0 auto;
+text-align:center;
+
+}
+
+h1
+{
+color:#045FB4;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+h2
+{
+	color:#045FB4;
+}
+
+header hgroup h1
+{
+border-bottom:solid;
+padding-bottom:1px;
+border-width:1px;
+border-color:#0404B4;
+text-shadow:0px 0px 1px rgba(0,0,0,5);
+}
+
+nav ul li
+{
+display:inline-block;
+margin-right:20px;
+color:#086A87; 
+cursor: pointer;
+padding:15px;
+
+transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5 linear;
+-o-transition:all 0.5s linear;
+}
+
+nav ul li:hover
+{
+background-color:#BDBDBD;
+color:#BDBDBD;
+border-radius: 10px;
+
+}
+nav ul li a
+{
+text-decoration:none;
+}
+#textoPr
+{
+width:600px;
+height:500px;
+background-color:#D8D8D8;
+color:#086A87;
+margin:0 auto;
+text-align:left;
+border-radius:20px;
+padding:20px;
+box-shadow:0px 0px 3px rgba(0,0,0,5);
+}
+
+#textoPr2
+{
+width:600px;
+height:1000px;
+background-color:#D8D8D8;
+color:#086A87;
+margin:0 auto;
+text-align:left;
+border-radius:20px;
+padding:20px;
+box-shadow:0px 0px 3px rgba(0,0,0,2);
+}
+
+a
+{
+color:#2E2E2E;
+font-weight:bold;
+
+}
+
+#miCanvas
+{
+position: absolute;
+bottom: 0px;
+left: 0px;
+
+}
+
+meter
+{
+background-color:#FFF;
+padding: 2px;
+border-radius:5px;
+color:#0066CC;
+width:200px;
+margin-left: 20px;
+}
+
+label
+{
+display:block;
+}
+
+#btnSubmit
+{
+border:none;
+background-color:#FFF;
+color:#000099;
+padding: 4px;
+margin: 20px;
+cursor: pointer;
+border-radius:5px;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#calificacion
+{
+width:150px;
+-webkit-appearance:none;
+background-color:#0066CC;
+height:20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+#calificacion::-webkit-slider-thumb
+{
+-webkit-appearance:none;
+background-color:white;
+border-radius:10px;
+height:15px;
+width:10px;
+
+
+}
+
+#mediaC
+{
+box-sizing:border-box;
+}
+
+.particion{
+display: inline-block;
+width:45%;
+}
+
+#mediaC audio
+{
+width:200px;
+}
+
+#mediaC video
+{
+height:180px;
+}
